@@ -195,12 +195,12 @@ export default function AboutPage() {
               </div>
             </div>
           </div>
-          <div className="director-reveal reveal-clip-right relative" style={{ minHeight: "400px" }}>
+          <div className="director-reveal reveal-clip-right relative aspect-[3/4] lg:aspect-auto" style={{ minHeight: "400px" }}>
             <Image
               src={directorData.image}
               alt={directorData.name}
               fill
-              className="object-cover"
+              className="object-contain lg:object-cover lg:object-top"
               sizes="(max-width: 1024px) 100vw, 50vw"
             />
           </div>
