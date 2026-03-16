@@ -15,7 +15,7 @@ export default function Landscaping() {
         <div className="reveal-item relative order-2 lg:order-1 min-h-[250px] lg:min-h-[400px]">
           <Image
             src={landscapingData.image}
-            alt="Luxury landscaping build"
+            alt="Professional property maintenance"
             fill
             className="object-cover"
             sizes="(max-width: 1024px) 100vw, 50vw"

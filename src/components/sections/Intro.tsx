@@ -74,7 +74,7 @@ export default function Intro() {
             >
               <Image
                 src={introData.image}
-                alt="Luxury garden design"
+                alt="Property maintenance services"
                 fill
                 className="object-cover"
                 sizes="(max-width: 1024px) 100vw, 580px"

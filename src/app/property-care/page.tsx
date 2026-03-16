@@ -84,7 +84,7 @@ export default function PropertyCarePage() {
               marginBottom: "16px",
             }}
           >
-            Premium residential property care
+            Residential property care
           </p>
           <h1
             className="font-display"

@@ -80,7 +80,7 @@ export default function GardenDesignPage() {
             <div className="reveal-item relative aspect-[3/4] overflow-hidden">
               <Image
                 src="/images/service-driveways-v2.jpg"
-                alt="Bespoke garden design"
+                alt="Professional property services"
                 fill
                 className="object-cover"
                 sizes="(max-width: 1024px) 100vw, 50vw"
@@ -94,7 +94,7 @@ export default function GardenDesignPage() {
       <section className="relative" style={{ height: "50vh", minHeight: "350px" }}>
         <Image
           src="/images/garden-fullwidth-v2.jpg"
-          alt="Luxury garden landscape"
+          alt="Property maintenance work"
           fill
           className="object-cover"
           sizes="100vw"

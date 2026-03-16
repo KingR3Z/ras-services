@@ -13,46 +13,36 @@ gsap.registerPlugin(ScrollTrigger);
 const designSteps = [
   {
     number: "01",
-    title: "initial consultation & site visit",
-    description: "We begin every project with a detailed site visit and in-depth consultation. We listen carefully to how you use your space, what inspires you, and how you envision your outdoor life.",
+    title: "get in touch",
+    description: "Give us a call, send a message on WhatsApp, or fill out our contact form. Tell us what you need — whether it's a garden tidy, a roof repair, repointing or a full exterior repaint.",
   },
   {
     number: "02",
-    title: "comprehensive site survey",
-    description: "Our team conducts a thorough survey of your property — topography, drainage, soil conditions, existing structures, and utilities. This data forms the foundation of every design decision.",
+    title: "free site visit & quote",
+    description: "Richard will visit your property, assess the job in person, and provide a clear, written quote with no hidden costs. We'll talk through options and answer any questions.",
   },
   {
     number: "03",
-    title: "2d design & cost estimate",
-    description: "We create detailed concept plans and accurate cost estimates, refining the design with your input. You'll know exactly what to expect before we move to the next phase.",
-  },
-  {
-    number: "04",
-    title: "3d visualisation & refinement",
-    description: "See your garden come to life with photorealistic 3D renderings. We refine every detail — materials, planting, lighting — until the design perfectly reflects your vision.",
-  },
-  {
-    number: "05",
-    title: "material selection & contract finalisation",
-    description: "We guide you through selecting premium materials and finalise the project contract. Every specification is documented so there are no surprises during construction.",
+    title: "agree & schedule",
+    description: "Once you're happy with the quote, we'll agree a start date that works for you. We'll confirm materials, access requirements and any preparation needed before we begin.",
   },
 ];
 
 const buildSteps = [
   {
     number: "01",
-    title: "project scheduling & kickoff",
-    description: "Your dedicated project manager creates a detailed timeline and coordinates all trades. We keep you informed at every stage with regular updates and site meetings.",
+    title: "preparation & materials",
+    description: "We source quality materials and prepare the site properly. Whether it's clearing a garden, scaffolding a roof or prepping surfaces for painting — we do the groundwork right.",
   },
   {
     number: "02",
-    title: "permits, working drawings & project details",
-    description: "We handle all permits and create detailed working drawings for every element. Our engineering team ensures structural integrity and compliance with all regulations.",
+    title: "the work",
+    description: "Richard and the team get stuck in. We work efficiently, keep the site tidy, and keep you updated throughout. If anything changes, we'll talk to you first — no surprises.",
   },
   {
     number: "03",
-    title: "construction completion & client training",
-    description: "Our skilled in-house team brings the design to life with meticulous attention to detail. We walk you through every feature and provide a comprehensive maintenance guide.",
+    title: "final check & sign-off",
+    description: "We walk you through the finished work to make sure you're completely happy. We clean up after ourselves and leave your property looking better than we found it.",
   },
 ];
 
@@ -195,9 +185,8 @@ export default function ProcessPage() {
                 maxWidth: "500px",
               }}
             >
-              Every {client.name} project follows a proven process. It&apos;s designed to give you
-              confidence at every step — from the first sketch to the moment you step into your
-              completed landscape.
+              Every {client.name} project follows a straightforward process. It&apos;s designed to give you
+              confidence at every step — from the first phone call to the final walkthrough.
             </p>
           </div>
           {/* Right: image */}
@@ -223,7 +212,7 @@ export default function ProcessPage() {
                   star
                   <span className="flex text-white">★★★★★</span>
                 </span>
-                <span className="text-white text-sm">landscapes</span>
+                <span className="text-white text-sm">service</span>
               </div>
             </div>
           </div>
@@ -246,7 +235,7 @@ export default function ProcessPage() {
                     opacity: 0,
                   }}
                 >
-                  next-level design
+                  getting started
                 </h2>
               </div>
               <div>
@@ -261,7 +250,7 @@ export default function ProcessPage() {
                     opacity: 0,
                   }}
                 >
-                  Creative, tailored, outdoor spaces that exceed expectations
+                  Simple, honest, no-hassle service from start to finish
                 </p>
                 <p
                   className="section-text-reveal"
@@ -272,9 +261,9 @@ export default function ProcessPage() {
                     opacity: 0,
                   }}
                 >
-                  Our design process blends artistic vision with technical precision.
-                  Every garden is unique, and our approach ensures yours is crafted
-                  with intention and care from start to finish.
+                  We keep things straightforward. You tell us what you need,
+                  we give you a clear quote, and we get on with the job.
+                  No jargon, no messing about.
                 </p>
               </div>
             </div>
@@ -318,7 +307,7 @@ export default function ProcessPage() {
                     opacity: 0,
                   }}
                 >
-                  Expert construction, uncompromising quality
+                  Quality workmanship, every time
                 </p>
                 <p
                   className="section-text-reveal"
@@ -329,8 +318,8 @@ export default function ProcessPage() {
                     opacity: 0,
                   }}
                 >
-                  Our in-house construction team brings decades of experience to every project.
-                  We manage every detail so you can focus on enjoying the transformation.
+                  We take pride in doing things properly. From preparation to clean-up,
+                  we treat your property with respect and deliver work you can rely on.
                 </p>
               </div>
             </div>

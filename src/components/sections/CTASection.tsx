@@ -56,7 +56,7 @@ export default function CTASection() {
                 lineHeight: 1.4,
               }}
             >
-              Arrange an initial garden design consultation and tell us about your project.
+              Request a free quote and tell us about your project.
             </p>
             <form style={{ display: "flex", flexDirection: "column", gap: "28px" }} onSubmit={(e) => e.preventDefault()}>
               {/* Row 1: First name / Last name */}
@@ -99,10 +99,13 @@ export default function CTASection() {
                   <label className="block" style={{ color: "#FFFFFF", fontSize: "14px", marginBottom: "10px" }}>What service are you looking for?</label>
                   <select className="w-full px-5 text-base focus:outline-none focus:ring-2 focus:ring-white/30 appearance-none" style={{ background: "rgba(255,255,255,0.95)", border: "none", color: "#2C2C2C", borderRadius: "6px", height: "56px", backgroundImage: `url("data:image/svg+xml,%3Csvg width='12' height='8' viewBox='0 0 12 8' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M1 1.5L6 6.5L11 1.5' stroke='%23666' stroke-width='1.5' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E")`, backgroundRepeat: "no-repeat", backgroundPosition: "right 16px center", paddingRight: "44px" }}>
                     <option value="">Select...</option>
-                    <option value="design">Garden Design</option>
-                    <option value="landscaping">Landscaping &amp; Build</option>
-                    <option value="styling">Garden Styling</option>
-                    <option value="planting">Planting Schemes</option>
+                    <option value="gardening">Gardening &amp; Landscaping</option>
+                    <option value="roofing">Roofing &amp; GRP Flat Roofs</option>
+                    <option value="brickwork">Brickwork &amp; Repointing</option>
+                    <option value="painting">Painting &amp; Decorating</option>
+                    <option value="fencing">Fencing &amp; Gates</option>
+                    <option value="guttering">Fascia, Soffit &amp; Guttering</option>
+                    <option value="other">Other</option>
                   </select>
                 </div>
               </div>

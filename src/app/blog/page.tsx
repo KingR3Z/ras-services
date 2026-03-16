@@ -11,46 +11,46 @@ gsap.registerPlugin(ScrollTrigger);
 
 const blogPosts = [
   {
-    title: "designing for all seasons: a guide to year-round gardens",
-    excerpt: "How to create a landscape that looks beautiful in every season, from spring bulbs to winter structure.",
+    title: "why grp flat roofs are the smart choice for hull homes",
+    excerpt: "GRP fibreglass flat roofs offer a durable, watertight solution that lasts decades. Here's why more Hull homeowners are choosing GRP over traditional felt.",
     date: "2026-03-10",
     image: "/images/garden-fullwidth-v2.jpg",
-    slug: "designing-for-all-seasons",
+    slug: "grp-flat-roofs-hull",
   },
   {
-    title: "the art of outdoor lighting",
-    excerpt: "Transform your garden after dark with thoughtful lighting design that extends your outdoor living hours.",
+    title: "when to repoint your brickwork — signs to look for",
+    excerpt: "Crumbling mortar joints can lead to damp and structural issues. Here are the key signs that your brickwork needs professional repointing.",
     date: "2026-02-18",
     image: "/images/service-patios-v2.jpg",
-    slug: "art-of-outdoor-lighting",
+    slug: "when-to-repoint-brickwork",
   },
   {
-    title: "natural swimming pools: luxury meets sustainability",
-    excerpt: "Why chemical-free swimming pools are becoming the must-have feature in premium garden design.",
+    title: "spring garden preparation: a practical guide",
+    excerpt: "Getting your garden ready for the growing season doesn't have to be complicated. Here's our step-by-step guide to a great-looking garden this spring.",
     date: "2026-01-22",
     image: "/images/garden-premium-v2.jpg",
-    slug: "natural-swimming-pools",
+    slug: "spring-garden-preparation",
   },
   {
-    title: "from vision to reality: our kensington project",
-    excerpt: "A behind-the-scenes look at how we transformed a neglected courtyard into an urban oasis.",
+    title: "fascia, soffit & guttering: what you need to know",
+    excerpt: "Rotten fascia and blocked guttering can cause serious damage. We explain what to look for, when to replace, and why UPVC is the low-maintenance solution.",
     date: "2025-12-15",
     image: "/images/service-driveways-v2.jpg",
-    slug: "kensington-project-story",
+    slug: "fascia-soffit-guttering-guide",
   },
   {
-    title: "choosing the right materials for your landscape",
-    excerpt: "Stone, timber, or composite? A guide to selecting materials that will stand the test of time.",
+    title: "choosing the right fencing for your garden",
+    excerpt: "Close board, panel, or picket? A practical guide to choosing garden fencing that suits your property, budget, and privacy needs.",
     date: "2025-11-08",
     image: "/images/service-fencing-v2.jpg",
-    slug: "choosing-right-materials",
+    slug: "choosing-right-fencing",
   },
   {
-    title: "the value of professional landscape design",
-    excerpt: "Why investing in professional design pays dividends in beauty, functionality, and property value.",
+    title: "autumn property maintenance checklist",
+    excerpt: "Essential tasks to protect your home and garden through winter — from clearing gutters to checking roof tiles and cutting back overgrowth.",
     date: "2025-10-20",
     image: "/images/philosophy-main-v2.jpg",
-    slug: "value-of-professional-design",
+    slug: "autumn-maintenance-checklist",
   },
 ];
 
@@ -95,9 +95,9 @@ export default function BlogPage() {
             paddingLeft: "var(--container-padding)",
           }}
         >
-          <div>inspired by nature</div>
-          <div>guided by experience</div>
-          <div>defined by character</div>
+          <div>practical advice</div>
+          <div>property tips</div>
+          <div>from the experts</div>
         </div>
         <div className="container-custom relative z-10">
           <h1

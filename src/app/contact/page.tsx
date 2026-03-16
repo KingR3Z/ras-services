@@ -39,7 +39,7 @@ export default function ContactPage() {
             <div className="absolute inset-0 lg:hidden">
               <Image
                 src={contactHeroData.image}
-                alt="Luxury garden design"
+                alt="Property maintenance services"
                 fill
                 className="object-cover"
                 sizes="100vw"
@@ -96,7 +96,7 @@ export default function ContactPage() {
           <div className="relative hidden lg:block" style={{ minHeight: "400px", background: "#FFFFFF" }}>
             <Image
               src={contactHeroData.image}
-              alt="Luxury garden design"
+              alt="Property maintenance services"
               fill
               className="object-cover"
               sizes="50vw"
@@ -413,13 +413,13 @@ export default function ContactPage() {
                   fontFamily: "var(--font-body)",
                 }}
               >
-                Ready to transform your garden?
+                Ready to get started?
               </h4>
               <p
                 className="form-reveal reveal-item mb-5 leading-relaxed"
                 style={{ color: "#F8F9F5", fontSize: "clamp(15px, 1.1vw, 17px)", lineHeight: 1.6 }}
               >
-                Our award-winning team is here to shape a garden that reflects your lifestyle, complements your home and offers a refined outdoor living experience for years to come.
+                Whether it&apos;s a garden tidy, a roof repair, brickwork repointing or a full exterior repaint — we&apos;re here to help. No job is too small.
               </p>
               <p
                 className="form-reveal reveal-item mb-5 leading-relaxed"
@@ -443,7 +443,7 @@ export default function ContactPage() {
                 className="form-reveal reveal-item mb-6 leading-relaxed"
                 style={{ color: "#F8F9F5", fontSize: "clamp(15px, 1.1vw, 17px)", lineHeight: 1.6 }}
               >
-                We&apos;ll review your details and contact you personally to discuss your vision, understand your priorities, and outline the best way forward for your project.
+                We&apos;ll review your details and contact you personally to discuss your requirements, assess the job, and provide a clear, no-obligation quote.
               </p>
               <p className="form-reveal reveal-item">
                 <a
@@ -481,7 +481,7 @@ export default function ContactPage() {
                   fontFamily: "var(--font-body)",
                 }}
               >
-                Arrange an initial garden design consultation and tell us about your project.
+                Request a free quote and tell us about your project.
               </p>
               <form className="form-reveal reveal-item" style={{ display: "flex", flexDirection: "column", gap: "28px" }} onSubmit={(e) => e.preventDefault()}>
                 {/* Row 1: First name / Last name */}
@@ -595,10 +595,13 @@ export default function ContactPage() {
                       }}
                     >
                       <option value="">Select...</option>
-                      <option value="design">Garden Design</option>
-                      <option value="landscaping">Landscaping &amp; Build</option>
-                      <option value="styling">Garden Styling</option>
-                      <option value="planting">Planting Schemes</option>
+                      <option value="gardening">Gardening &amp; Landscaping</option>
+                      <option value="roofing">Roofing &amp; GRP Flat Roofs</option>
+                      <option value="brickwork">Brickwork &amp; Repointing</option>
+                      <option value="painting">Painting &amp; Decorating</option>
+                      <option value="fencing">Fencing &amp; Gates</option>
+                      <option value="guttering">Fascia, Soffit &amp; Guttering</option>
+                      <option value="other">Other</option>
                     </select>
                   </div>
                 </div>

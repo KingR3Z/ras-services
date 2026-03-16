@@ -220,7 +220,7 @@ export default function AboutPage() {
                 lineHeight: 1.25,
               }}
             >
-              ELEVATING
+              MAINTAINING
             </h2>
             <h2
               className="mission-reveal reveal-slide-up"
@@ -233,7 +233,7 @@ export default function AboutPage() {
                 lineHeight: 1.25,
               }}
             >
-              OUTDOOR
+              YOUR
             </h2>
             <h2
               className="mission-reveal reveal-slide-up"
@@ -246,7 +246,7 @@ export default function AboutPage() {
                 lineHeight: 1.25,
               }}
             >
-              LIVING
+              PROPERTY
             </h2>
           </div>
           <h3
