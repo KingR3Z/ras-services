@@ -1,7 +1,6 @@
 "use client";
 
 import Link from "next/link";
-import Image from "next/image";
 import { footerData } from "@/data/navigation";
 import { client } from "@/config/client";
 
@@ -11,27 +10,29 @@ export default function Footer() {
       <div className="container-custom" style={{ paddingTop: "100px", paddingBottom: "40px" }}>
         {/* Logo */}
         <div style={{ marginBottom: "0" }}>
-          <Link href="/">
-            <Image
-              src="/images/logo-gd.png"
-              alt={client.name}
-              width={180}
-              height={90}
-              style={{ objectFit: "contain", height: "100px", width: "auto" }}
-            />
+          <Link href="/" style={{ textDecoration: "none" }}>
+            <div style={{ display: "flex", flexDirection: "column", lineHeight: 1.1 }}>
+              <span style={{
+                fontFamily: "var(--font-display)",
+                fontSize: "28px",
+                fontWeight: 400,
+                color: "#FFFFFF",
+                letterSpacing: "0.5px",
+              }}>
+                {client.name}
+              </span>
+              <span style={{
+                fontSize: "9px",
+                fontWeight: 400,
+                color: "rgba(255,255,255,0.7)",
+                letterSpacing: "0.2em",
+                textTransform: "uppercase" as const,
+                marginTop: "4px",
+              }}>
+                Gardening &bull; Roofing &bull; Maintenance
+              </span>
+            </div>
           </Link>
-          <p
-            style={{
-              fontSize: "10px",
-              fontWeight: 400,
-              color: "#2C2713",
-              letterSpacing: "0.15em",
-              marginTop: "6px",
-              opacity: 0.7,
-            }}
-          >
-            {footerData.subtitle}
-          </p>
         </div>
 
         {/* Divider — flush against logo bottom */}
