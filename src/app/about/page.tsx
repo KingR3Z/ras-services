@@ -10,7 +10,6 @@ import {
   coreValues,
   directorData,
   missionData,
-  partnersData,
   awardsData,
 } from "@/data/about";
 
@@ -19,7 +18,6 @@ export default function AboutPage() {
   const valuesRef = useReveal(".value-card");
   const directorRef = useReveal(".director-reveal");
   const missionRef = useReveal(".mission-reveal");
-  const partnersRef = useReveal(".partner-reveal");
   const awardsRef = useReveal(".award-reveal");
 
   return (
@@ -134,7 +132,7 @@ export default function AboutPage() {
                     lineHeight: 1.2,
                   }}
                 >
-                  DESIGN
+                  MEET THE
                 </h2>
                 <h2
                   className="director-reveal reveal-slide-left"
@@ -148,7 +146,7 @@ export default function AboutPage() {
                     marginBottom: "12px",
                   }}
                 >
-                  DIRECTOR
+                  OWNER
                 </h2>
               </div>
               <div>
@@ -195,12 +193,12 @@ export default function AboutPage() {
               </div>
             </div>
           </div>
-          <div className="director-reveal reveal-clip-right relative aspect-[3/4] lg:aspect-auto" style={{ minHeight: "400px" }}>
+          <div className="director-reveal reveal-clip-right relative aspect-[3/4] lg:aspect-auto" style={{ minHeight: "400px", background: "#B5C4AF" }}>
             <Image
               src={directorData.image}
               alt={directorData.name}
               fill
-              className="object-contain lg:object-cover lg:object-top"
+              className="object-contain"
               sizes="(max-width: 1024px) 100vw, 50vw"
             />
           </div>
@@ -276,47 +274,6 @@ export default function AboutPage() {
       </section>
 
       {/* Visionary Partners — heading + cards scale in with bounce */}
-      <section ref={partnersRef} className="bg-white section-padding">
-        <div className="container-custom text-center">
-          <h2
-            className="partner-reveal reveal-item font-display mb-12"
-            style={{
-              fontSize: "clamp(26px, 3vw, 38px)",
-              fontWeight: 300,
-              fontStyle: "italic",
-              color: "var(--charcoal)",
-              lineHeight: 1.3,
-            }}
-          >
-            {partnersData.heading}
-          </h2>
-          <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
-            {partnersData.partners.map((partner, i) => (
-              <div
-                key={i}
-                className="partner-reveal reveal-scale-bounce flex items-center justify-center"
-                style={{
-                  height: "100px",
-                  border: "1px solid #e8e8e8",
-                  borderRadius: "12px",
-                  padding: "20px",
-                }}
-              >
-                <p
-                  className="font-display"
-                  style={{
-                    fontSize: "clamp(14px, 1.2vw, 18px)",
-                    color: "var(--warm-grey)",
-                    fontStyle: "italic",
-                  }}
-                >
-                  {partner.name}
-                </p>
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
 
       {/* Awards — heading + cards stagger slide up */}
       <section ref={awardsRef} className="section-padding" style={{ background: "var(--cream)" }}>
