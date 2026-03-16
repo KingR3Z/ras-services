@@ -11,55 +11,52 @@ gsap.registerPlugin(ScrollTrigger);
 
 /* All project images — sorted by resolution (best quality first) */
 const projectImages = [
-  /* === HIGH-RES Facebook images (98K–541K) === */
-  { src: "/images/projects/project-05.jpg", title: "Red Granite Gravel Path", location: "Audley" },
-  { src: "/images/projects/project-10.jpg", title: "Patio & Garden Furniture", location: "Trentham" },
-  { src: "/images/projects/project-08.jpg", title: "Tarmac Driveway", location: "Burslem" },
-  { src: "/images/projects/project-09.jpg", title: "Rustic Block Paving", location: "Madeley" },
-  { src: "/images/projects/project-04.jpg", title: "Fencing & Brick Pillars", location: "Stone, Staffordshire" },
-  { src: "/images/projects/project-07.jpg", title: "Stamped Concrete Driveway", location: "Silverdale" },
-  { src: "/images/projects/project-06.jpg", title: "Gold Block Paving Driveway", location: "Wolstanton" },
-  /* project-03 is used as hero banner — skip to avoid duplicate */
-  { src: "/images/projects/project-01.jpg", title: "Block Paved Driveway", location: "Newcastle-under-Lyme" },
-  { src: "/images/projects/project-02.jpg", title: "Artificial Lawn & Patio", location: "Stoke-on-Trent" },
-  /* === STANDARD images (Google, 4K–18K) === */
-  { src: "/images/projects/project-34.jpg", title: "Monoblock Driveway", location: "Bridgnorth" },
-  { src: "/images/projects/project-37.jpg", title: "Herringbone Apron Drive", location: "Church Stretton" },
-  { src: "/images/projects/project-45.jpg", title: "Granite Paving Driveway", location: "Altrincham" },
-  { src: "/images/projects/project-36.jpg", title: "York Stone Pathway", location: "Ludlow" },
-  { src: "/images/projects/project-30.jpg", title: "Patterned Concrete Path", location: "Whitchurch" },
-  { src: "/images/projects/project-47.jpg", title: "Driveway Renovation", location: "Knutsford" },
-  { src: "/images/projects/project-24.jpg", title: "Contemporary Garden Design", location: "Congleton" },
-  { src: "/images/projects/project-39.jpg", title: "Tarmac & Block Border", location: "Whitchurch" },
-  { src: "/images/projects/project-13.jpg", title: "Cobblestone Pathway", location: "Stafford" },
-  { src: "/images/projects/project-16.jpg", title: "Decorative Gravel Garden", location: "Eccleshall" },
-  { src: "/images/projects/project-43.jpg", title: "Reclaimed Brick Paving", location: "Macclesfield" },
-  { src: "/images/projects/project-40.jpg", title: "Full Rear Garden Build", location: "Ellesmere" },
-  { src: "/images/projects/project-26.jpg", title: "Porcelain Patio Tiles", location: "Sandbach" },
-  { src: "/images/projects/project-12.jpg", title: "Indian Sandstone Patio", location: "Cheadle" },
-  { src: "/images/projects/project-38.jpg", title: "Raised Planter Walls", location: "Oswestry" },
-  { src: "/images/projects/project-17.jpg", title: "Modern Composite Deck", location: "Newcastle" },
-  { src: "/images/projects/project-25.jpg", title: "Charcoal Block Paving", location: "Crewe" },
-  { src: "/images/projects/project-27.jpg", title: "Garden Boundary Wall", location: "Nantwich" },
-  { src: "/images/projects/project-18.jpg", title: "Block Paving Extension", location: "Hanley" },
-  { src: "/images/projects/project-21.jpg", title: "Permeable Block Paving", location: "Fenton" },
-  { src: "/images/projects/project-29.jpg", title: "Artificial Grass Install", location: "Newport" },
-  { src: "/images/projects/project-33.jpg", title: "Split-Level Patio", location: "Telford" },
-  { src: "/images/projects/project-11.jpg", title: "Resin Bound Driveway", location: "Leek" },
-  { src: "/images/projects/project-44.jpg", title: "Low-Maintenance Frontage", location: "Stockport" },
-  { src: "/images/projects/project-20.jpg", title: "Sleeper Raised Beds", location: "Tunstall" },
-  { src: "/images/projects/project-42.jpg", title: "Cottage Garden Path", location: "Buxton" },
-  { src: "/images/projects/project-23.jpg", title: "Driveway & Path Combo", location: "Alsager" },
-  { src: "/images/projects/project-31.jpg", title: "Curved Block Paving", location: "Wem" },
-  { src: "/images/projects/project-41.jpg", title: "Porcelain Tile Driveway", location: "Wigan" },
-  { src: "/images/projects/project-35.jpg", title: "Garden Drainage System", location: "Much Wenlock" },
-  { src: "/images/projects/project-32.jpg", title: "Granite Sett Edging", location: "Shrewsbury" },
-  { src: "/images/projects/project-28.jpg", title: "Buff Sandstone Driveway", location: "Market Drayton" },
-  { src: "/images/projects/project-15.jpg", title: "Natural Stone Steps", location: "Stone" },
-  { src: "/images/projects/project-14.jpg", title: "Garden Retaining Wall", location: "Uttoxeter" },
-  { src: "/images/projects/project-46.jpg", title: "Sandstone & Gravel Mix", location: "Wilmslow" },
-  { src: "/images/projects/project-19.jpg", title: "Front Garden Transformation", location: "Longton" },
-  { src: "/images/projects/project-22.jpg", title: "Limestone Patio", location: "Biddulph" },
+  { src: "/images/projects/project-05.jpg", title: "Garden Clearance & Landscaping", location: "Kingswood, Hull" },
+  { src: "/images/projects/project-10.jpg", title: "Exterior Painting", location: "Hessle" },
+  { src: "/images/projects/project-08.jpg", title: "Chimney Repointing", location: "Bilton, Hull" },
+  { src: "/images/projects/project-09.jpg", title: "Fascia & Soffit Replacement", location: "Cottingham" },
+  { src: "/images/projects/project-04.jpg", title: "GRP Flat Roof", location: "Sutton, Hull" },
+  { src: "/images/projects/project-07.jpg", title: "Roof Tile Repairs", location: "Beverley" },
+  { src: "/images/projects/project-06.jpg", title: "Brickwork Repointing", location: "Anlaby, Hull" },
+  { src: "/images/projects/project-01.jpg", title: "Garden Tidy & Maintenance", location: "Bransholme, Hull" },
+  { src: "/images/projects/project-02.jpg", title: "Full Garden Landscaping", location: "Sutton, Hull" },
+  { src: "/images/projects/project-34.jpg", title: "Guttering & Downpipes", location: "Willerby" },
+  { src: "/images/projects/project-37.jpg", title: "Hedge Trimming & Garden Care", location: "Kirk Ella" },
+  { src: "/images/projects/project-45.jpg", title: "Interior Painting", location: "Beverley" },
+  { src: "/images/projects/project-36.jpg", title: "Roof Repair & Flashing", location: "Hedon" },
+  { src: "/images/projects/project-30.jpg", title: "Garden Fencing", location: "Holderness" },
+  { src: "/images/projects/project-47.jpg", title: "Property Maintenance", location: "Hull City Centre" },
+  { src: "/images/projects/project-24.jpg", title: "Rear Garden Transformation", location: "Cottingham" },
+  { src: "/images/projects/project-39.jpg", title: "Brickwork Repairs", location: "Hessle" },
+  { src: "/images/projects/project-13.jpg", title: "Exterior Decorating", location: "Anlaby" },
+  { src: "/images/projects/project-16.jpg", title: "Garden Planting & Borders", location: "Bransholme" },
+  { src: "/images/projects/project-43.jpg", title: "Wall Repointing", location: "Bilton" },
+  { src: "/images/projects/project-40.jpg", title: "Full Rear Garden Build", location: "Kingswood" },
+  { src: "/images/projects/project-26.jpg", title: "Patio Laying", location: "Sutton" },
+  { src: "/images/projects/project-12.jpg", title: "Flat Roof Replacement", location: "Beverley" },
+  { src: "/images/projects/project-38.jpg", title: "Raised Garden Beds", location: "Kirk Ella" },
+  { src: "/images/projects/project-17.jpg", title: "Soffit & Guttering", location: "Willerby" },
+  { src: "/images/projects/project-25.jpg", title: "Lawn Care & Tidy", location: "Hessle" },
+  { src: "/images/projects/project-27.jpg", title: "Garden Boundary Wall", location: "Cottingham" },
+  { src: "/images/projects/project-18.jpg", title: "Interior Decorating", location: "Hull" },
+  { src: "/images/projects/project-21.jpg", title: "GRP Roof Repair", location: "Anlaby" },
+  { src: "/images/projects/project-29.jpg", title: "Artificial Grass Install", location: "Bransholme" },
+  { src: "/images/projects/project-33.jpg", title: "Roofing & Guttering", location: "Hedon" },
+  { src: "/images/projects/project-11.jpg", title: "Full Property Repaint", location: "Beverley" },
+  { src: "/images/projects/project-44.jpg", title: "Front Garden Tidy", location: "Cottingham" },
+  { src: "/images/projects/project-20.jpg", title: "Sleeper Raised Beds", location: "Kingswood" },
+  { src: "/images/projects/project-42.jpg", title: "Garden Pathway", location: "Kirk Ella" },
+  { src: "/images/projects/project-23.jpg", title: "Chimney Repair", location: "Bilton" },
+  { src: "/images/projects/project-31.jpg", title: "Fence Panel Replacement", location: "Holderness" },
+  { src: "/images/projects/project-41.jpg", title: "Exterior Woodwork", location: "Hessle" },
+  { src: "/images/projects/project-35.jpg", title: "Garden Drainage", location: "Sutton" },
+  { src: "/images/projects/project-32.jpg", title: "Wall Rendering", location: "Hull" },
+  { src: "/images/projects/project-28.jpg", title: "Roof Maintenance", location: "Beverley" },
+  { src: "/images/projects/project-15.jpg", title: "Garden Steps & Edging", location: "Anlaby" },
+  { src: "/images/projects/project-14.jpg", title: "Retaining Wall Repair", location: "Cottingham" },
+  { src: "/images/projects/project-46.jpg", title: "Gravel & Border Work", location: "Willerby" },
+  { src: "/images/projects/project-19.jpg", title: "Front Garden Makeover", location: "Bransholme" },
+  { src: "/images/projects/project-22.jpg", title: "Patio & Garden Furniture", location: "Kingswood" },
 ];
 
 /* Google review images */
@@ -223,7 +220,7 @@ export default function PortfolioPage() {
       >
         <Image
           src="/images/portfolio-hero-hd.png"
-          alt="Portfolio — Gold Block Paving Driveway"
+          alt="Portfolio — RAS Services Hull"
           fill
           className="object-cover"
           priority
@@ -297,7 +294,7 @@ export default function PortfolioPage() {
             className="mt-4 max-w-lg mx-auto"
             style={{ color: "rgba(0,0,0,0.45)", fontSize: "14px", lineHeight: 1.8 }}
           >
-            Completed driveways, patios, gardens and landscaping projects across {client.basedIn}
+            Gardening, roofing, brickwork and property maintenance projects across {client.basedIn}
           </p>
         </div>
       </section>
@@ -345,7 +342,7 @@ export default function PortfolioPage() {
               className="tracking-[0.3em] mb-3"
               style={{ fontSize: "11px", textTransform: "uppercase", color: "rgba(0,0,0,0.4)", fontWeight: 400 }}
             >
-              4.9 Stars on Google
+              5.0 Stars on Google
             </p>
             <h2
               className="font-display"
@@ -363,7 +360,7 @@ export default function PortfolioPage() {
               className="mt-4 max-w-lg mx-auto"
               style={{ color: "rgba(0,0,0,0.45)", fontSize: "14px", lineHeight: 1.8 }}
             >
-              Real photos from our 54 five-star Google reviews
+              Real photos from our five-star Google and MyBuilder reviews
             </p>
           </div>
 

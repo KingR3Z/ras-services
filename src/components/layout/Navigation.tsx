@@ -45,7 +45,7 @@ export default function Navigation() {
                 textTransform: "uppercase" as const,
                 marginTop: "3px",
               }}>
-                Paving &bull; Patios &bull; Landscaping
+                Gardening &bull; Roofing &bull; Maintenance
               </span>
             </div>
           </Link>
@@ -155,7 +155,7 @@ export default function Navigation() {
                 textTransform: "uppercase" as const,
                 marginTop: "3px",
               }}>
-                Paving &bull; Patios &bull; Landscaping
+                Gardening &bull; Roofing &bull; Maintenance
               </span>
             </div>
           </Link>

@@ -27,7 +27,7 @@ export default function GardenDesignPage() {
     <InnerPageLayout>
       <PageHero
         title="Our Services"
-        subtitle={`Driveways, patios, gardens & landscaping across ${client.basedIn}`}
+        subtitle={`Gardening, roofing & property maintenance across ${client.basedIn}`}
         image="/images/garden-premium-v2.jpg"
       />
 
@@ -46,16 +46,16 @@ export default function GardenDesignPage() {
                   lineHeight: 1.3,
                 }}
               >
-                Premium Driveways, Patios & Landscaping
+                Professional Property Services in Hull
               </h2>
               <p className="reveal-item mb-5 leading-relaxed" style={{ color: "var(--warm-grey)", fontSize: "15px" }}>
-                We specialise in transforming outdoor spaces across {client.basedIn} — from striking block paving driveways to beautifully finished patios, garden landscaping, fencing, and artificial lawns. Every project is built to the highest standard using premium materials from trusted suppliers like Marshalls, Bradstone, and Tobermore.
+                We provide a complete range of property services across {client.basedIn} and East Yorkshire — from garden maintenance and landscaping to roofing repairs, brickwork repointing, painting, decorating, and general property maintenance. Every job is completed to the highest standard.
               </p>
               <p className="reveal-item mb-5 leading-relaxed" style={{ color: "var(--warm-grey)", fontSize: "15px" }}>
-                Our hands-on team manages every project from start to finish — no subcontractors, no shortcuts. We take pride in delivering craftsmanship that stands the test of time, with attention to detail that sets us apart.
+                Richard handles every job personally from start to finish — no subcontractors, no middlemen. We take pride in delivering quality work with attention to detail that keeps our customers coming back.
               </p>
               <p className="reveal-item leading-relaxed" style={{ color: "var(--warm-grey)", fontSize: "15px" }}>
-                Whether you&apos;re looking for a complete driveway renovation, a new patio for entertaining, or a full garden transformation, we bring the same level of care and quality to every job.
+                Whether you need a garden brought back to life, a leaking roof repaired, walls repointed, or your property freshened up with a coat of paint — we bring the same level of care and quality to every job.
               </p>
               <div className="reveal-item mt-8">
                 <Link
@@ -106,7 +106,7 @@ export default function GardenDesignPage() {
         <div className="grid grid-cols-1 lg:grid-cols-2" style={{ minHeight: "600px" }}>
           <div
             className="flex items-center"
-            style={{ background: "#D5DDD1", padding: "clamp(40px, 5vw, 80px)" }}
+            style={{ background: "#C2D6CF", padding: "clamp(40px, 5vw, 80px)" }}
           >
             <div>
               <h2
@@ -119,16 +119,16 @@ export default function GardenDesignPage() {
                   lineHeight: 1.3,
                 }}
               >
-                Driveways & Block Paving
+                Gardening & Landscaping
               </h2>
               <p className="reveal-item mb-5 leading-relaxed" style={{ color: "var(--warm-grey)", fontSize: "15px" }}>
-                A well-built driveway makes a lasting first impression. We install premium block paving in herringbone, basket weave, and stretcher bond patterns — using materials that combine durability with kerb appeal.
+                From regular garden maintenance to full landscaping projects, we keep your outdoor spaces looking their best all year round. Lawn care, hedge trimming, planting, clearances and complete garden makeovers.
               </p>
               <p className="reveal-item mb-5 leading-relaxed" style={{ color: "var(--warm-grey)", fontSize: "15px" }}>
-                From charcoal and slate tones to warm golds and rustic blends, we help you choose colours and patterns that complement your property. Every driveway includes proper excavation, sub-base preparation, edge restraints, and drainage — built to last.
+                We handle everything from simple garden tidy-ups and waste removal to creating new patios, raised beds, fencing and complete garden redesigns. No job is too big or small.
               </p>
               <p className="reveal-item leading-relaxed" style={{ color: "var(--warm-grey)", fontSize: "15px" }}>
-                We also offer tarmac driveways, resin bound surfaces, and gravel installations — all finished to the same exacting standard.
+                Whether you need a one-off clearance or regular maintenance, we provide a reliable, professional service at competitive prices.
               </p>
             </div>
           </div>
@@ -184,7 +184,7 @@ export default function GardenDesignPage() {
           </div>
           <div
             className="flex items-center"
-            style={{ background: "#D5DDD1", padding: "clamp(40px, 5vw, 80px)" }}
+            style={{ background: "#C2D6CF", padding: "clamp(40px, 5vw, 80px)" }}
           >
             <div>
               <h2
@@ -197,19 +197,19 @@ export default function GardenDesignPage() {
                   lineHeight: 1.3,
                 }}
               >
-                Patios, Gardens & Landscaping
+                Roofing, Brickwork & Property Maintenance
               </h2>
               <p className="reveal-item mb-5 leading-relaxed" style={{ color: "var(--warm-grey)", fontSize: "15px" }}>
-                From Indian sandstone and porcelain patios to complete garden transformations, we create outdoor living spaces that are both beautiful and practical. Every patio is laid on a proper concrete foundation with precise falls for drainage.
+                We carry out all types of roofing repairs — from replacing broken tiles and fixing leaks to full GRP fibreglass flat roofs using Res Tec and Flexitec systems. Professional results with a watertight guarantee.
               </p>
               <p className="reveal-item mb-5 leading-relaxed" style={{ color: "var(--warm-grey)", fontSize: "15px" }}>
-                Our landscaping services include raised planters, retaining walls, sleeper beds, decorative gravel areas, and full garden redesigns. We work with natural stone, composite decking, and premium paving to create spaces you&apos;ll love spending time in.
+                Our brickwork and repointing service restores walls, chimneys and boundary walls to their best. We also handle painting and decorating — both interior and exterior — to keep your property looking fresh.
               </p>
               <p className="reveal-item mb-5 leading-relaxed" style={{ color: "var(--warm-grey)", fontSize: "15px" }}>
-                We also specialise in fencing and boundary work — from close-board panels and featherboard to brick pillars and decorative metalwork — as well as high-quality artificial lawns that look great year-round with zero maintenance.
+                Fascia, soffit and guttering replacement, general property maintenance and odd jobs — we offer a complete service to keep your home in top condition all year round.
               </p>
               <p className="reveal-item leading-relaxed" style={{ color: "var(--warm-grey)", fontSize: "15px" }}>
-                Every project is managed by our team from first visit to final walkthrough — one point of contact, complete peace of mind.
+                One tradesman, one phone call — RAS Services covers it all so you don&apos;t have to juggle multiple contractors.
               </p>
             </div>
           </div>
@@ -362,11 +362,11 @@ export default function GardenDesignPage() {
                     <label className="block" style={{ color: "#FFFFFF", fontSize: "14px", marginBottom: "10px" }}>What service are you looking for?</label>
                     <select className="w-full px-5 text-base focus:outline-none focus:ring-2 focus:ring-white/30 appearance-none" style={{ background: "rgba(255,255,255,0.95)", border: "none", color: "#2C2C2C", borderRadius: "6px", height: "56px", backgroundImage: `url("data:image/svg+xml,%3Csvg width='12' height='8' viewBox='0 0 12 8' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M1 1.5L6 6.5L11 1.5' stroke='%23666' stroke-width='1.5' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E")`, backgroundRepeat: "no-repeat", backgroundPosition: "right 16px center", paddingRight: "44px" }}>
                       <option value="">Select...</option>
-                      <option value="driveway">Driveway &amp; Block Paving</option>
-                      <option value="patio">Patio &amp; Paving</option>
-                      <option value="landscaping">Garden Landscaping</option>
-                      <option value="fencing">Fencing &amp; Boundaries</option>
-                      <option value="lawn">Artificial Lawn</option>
+                      <option value="gardening">Gardening &amp; Landscaping</option>
+                      <option value="roofing">Roofing &amp; GRP</option>
+                      <option value="brickwork">Brickwork &amp; Repointing</option>
+                      <option value="painting">Painting &amp; Decorating</option>
+                      <option value="fascia">Fascia, Soffit &amp; Guttering</option>
                       <option value="other">Other</option>
                     </select>
                   </div>
